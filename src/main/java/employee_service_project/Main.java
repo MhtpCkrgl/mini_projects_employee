@@ -17,13 +17,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner scan=new Scanner(System.in);
         EmployeeService service=new EmployeeService();
 
         do {
             menu();
             System.out.println("Enter your Choice");
-            int choice=sc.nextInt();
+            int choice=scan.nextInt();
             switch(choice) {
 
                 case 1:
