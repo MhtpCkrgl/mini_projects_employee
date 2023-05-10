@@ -3,7 +3,7 @@ package employee_service_project;
 import java.util.Scanner;
 public class Main {
     EmployeeService service=new EmployeeService();
-    static boolean ordering = true;
+    static boolean flag = true;
     public static void menu() {
         System.out.println("****************Welcome To Employee Managment System *********** "
                 + "\n1. Add Employee "
@@ -55,7 +55,7 @@ public class Main {
 
             }
 
-        }while(ordering);
+        }while(flag);
 
     }
 
