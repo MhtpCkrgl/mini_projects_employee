@@ -1,7 +1,5 @@
 package employee_service_project;
 
-import employee_service_project.EmployeeService;
-
 import java.util.Scanner;
 public class Main {
     EmployeeService service=new EmployeeService();
@@ -36,22 +34,22 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Update Employee");
-                    service.updateEmployee();
+                    service.updateEmp();
                     break;
                 case 4:
                     System.out.println("Delete Employee");
                     service.deleteEmp();
                     break;
                 case 5:
-                    System.out.println("view All Employee");
+                    System.out.println("View All Employee");
                     service.viewAllEmps();
                     break;
                 case 6:
-                    System.out.println("Thank you for using application!!");
+                    System.out.println("Thank you for using EMG(Employee Menagement System) application!!");
                     System.exit(0);
 
                 default:
-                    System.out.println("Please enter valid choice");
+                    System.out.println("Invalid choice number.Please enter valid choice from 1 to 6");
                     break;
 
 

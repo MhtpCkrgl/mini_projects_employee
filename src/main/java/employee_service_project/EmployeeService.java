@@ -1,9 +1,8 @@
 package employee_service_project;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
-import java.util.TreeSet;
+
 public class EmployeeService {
     HashSet<Employee> empset=new HashSet<Employee>();
 
@@ -53,7 +52,7 @@ public class EmployeeService {
         }
     }
     //update the employee
-    public void updateEmployee() {
+    public void updateEmp() {
         System.out.println("Enter id: ");
         id=sc.nextInt();
         boolean found=false;
