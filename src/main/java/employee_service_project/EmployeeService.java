@@ -38,7 +38,7 @@ public class EmployeeService {
         System.out.println("Enter salary");
         salary=scan.nextDouble();
 
-        Employee emp=new Employee(id, name, age, desiganation, department, sal);
+        Employee emp=new Employee(id, name, age, desiganation, department, salary);
 
         employees.add(emp);
         System.out.println(emp);
