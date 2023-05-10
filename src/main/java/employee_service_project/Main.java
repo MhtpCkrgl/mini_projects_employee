@@ -2,7 +2,7 @@ package employee_service_project;
 
 import java.util.Scanner;
 public class Main {
-    EmployeeService service=new EmployeeService();
+
     static boolean flag = true;
     public static void menu() {
         System.out.println("****************Welcome To Employee Managment System *********** "
